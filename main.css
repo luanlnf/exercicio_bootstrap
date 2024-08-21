@@ -1,0 +1,29 @@
+
+body {
+    background-image: url(https://wallpaperbat.com/img/418347-technology-wallpaper-4k.jpg);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border-radius: 20px;
+    background-color: rgba(140, 228, 235, 0.748); 
+    padding: 16px;
+    display:block;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+}
+
+input[type=text], input[type=email], input[type=tel]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
